@@ -13,8 +13,5 @@ export default defineConfig({
   adapter: vercel(),
   vite: {
     plugins: [tailwindcss()],
-    css: {
-      transformer: "lightningcss",
-    },
   },
 });
