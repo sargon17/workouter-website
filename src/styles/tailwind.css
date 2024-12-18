@@ -1,0 +1,148 @@
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-text-primary: var(--color-zinc-800);
+  --color-text-secondary: var(--color-zinc-600);
+  --color-text-tertiary: var(--color-zinc-400);
+  --color-text-accent: var(--color-green-500);
+  --color-text-danger: var(--color-red-500);
+  --color-text-number: 0;
+  --color-surface-muted: var(--color-zinc-100);
+  --color-surface-primary: var(--color-zinc-50);
+  --color-surface-secondary: var(--color-zinc-100);
+  --color-surface-timer-active: var(--color-green-50);
+  --color-surface-timer-ending: var(--color-red-50);
+  --button-rounded-sm: var(--rounded-sm);
+  --button-weight-label: 700;
+  --button-rounded-default: var(--rounded-md);
+  --button-rounded-lg: var(--rounded-lg);
+  --color-button-primary-surface: var(--color-green-500);
+  --color-button-primary-surface-hover: var(--color-green-600);
+  --color-button-primary-label: var(--color-green-50);
+  --color-button-primary-inverted-surface: var(--color-zinc-100);
+  --color-button-primary-inverted-label: var(--color-green-600);
+  --weights-timer-primary: 800;
+  --weights-timer-secondary: 600;
+  --rounded-lg: 22;
+  --rounded-md: 12;
+  --rounded-sm: 2;
+  --spacing-default: 20;
+  --sizes-note: 12;
+}
+
+@layer base {
+  :root {
+    --color-color: #ffffff;
+
+    --color-green-50: #e9f9ed;
+    --color-green-100: #d2f3db;
+    --color-green-200: #bcedc9;
+    --color-green-300: #99e3ac;
+    --color-green-400: #67d683;
+    --color-green-500: #34c85a;
+    --color-green-600: #279644;
+    --color-green-700: #1a642d;
+    --color-green-800: #11421e;
+    --color-green-900: #0b2c14;
+    --color-green-950: #06160a;
+
+    --color-red-50: #ffe9e8;
+    --color-red-100: #ffd4d1;
+    --color-red-200: #ffbebb;
+    --color-red-300: #ff9d97;
+    --color-red-400: #ff6c64;
+    --color-red-500: #ff3b30;
+    --color-red-600: #bf2c24;
+    --color-red-700: #801e18;
+    --color-red-800: #541310;
+    --color-red-900: #380d0b;
+    --color-red-950: #1c0605;
+
+    --color-zinc-50: #fafafa;
+    --color-zinc-100: #f4f4f5;
+    --color-zinc-200: #e4e4e7;
+    --color-zinc-300: #d4d4d8;
+    --color-zinc-400: #a1a1aa;
+    --color-zinc-500: #71717a;
+    --color-zinc-600: #52525b;
+    --color-zinc-800: #27272a;
+    --color-zinc-900: #18181b;
+    --color-zinc-950: #09090b;
+
+    --text-6xl: 3.75rem;
+    --text-7xl: 4.5rem;
+    --text-8xl: 5.25rem;
+    --text-9xl: 6rem;
+    --text-10xl: 6.75rem;
+    --text-11xl: 7.5rem;
+    --text-12xl: 8.25rem;
+    --text-13xl: 9rem;
+    --text-14xl: 9.75rem;
+    --text-15xl: 10.5rem;
+  }
+
+  html {
+    font-family: "Inter", sans-serif;
+  }
+
+  [data-theme="light"] {
+    --color-text-primary: var(--color-zinc-800);
+    --color-text-secondary: var(--color-zinc-600);
+    --color-text-tertiary: var(--color-zinc-400);
+    --color-text-accent: var(--color-green-500);
+    --color-text-danger: var(--color-red-500);
+    --color-text-number: 0;
+    --color-surface-muted: var(--color-zinc-100);
+    --color-surface-primary: var(--color-zinc-50);
+    --color-surface-secondary: var(--color-zinc-100);
+    --color-surface-timer-active: var(--color-green-50);
+    --color-surface-timer-ending: var(--color-red-50);
+    --button-rounded-sm: var(--rounded-sm);
+    --button-weight-label: 700;
+    --button-rounded-default: var(--rounded-md);
+    --button-rounded-lg: var(--rounded-lg);
+    --color-button-primary-surface: var(--color-green-500);
+    --color-button-primary-surface-hover: var(--color-green-600);
+    --color-button-primary-label: var(--color-green-50);
+    --color-button-primary-inverted-surface: var(--color-zinc-100);
+    --color-button-primary-inverted-label: var(--color-green-600);
+    --weights-timer-primary: 800;
+    --weights-timer-secondary: 600;
+    --rounded-lg: 22;
+    --rounded-md: 12;
+    --rounded-sm: 2;
+    --spacing-default: 20;
+    --sizes-note: 12;
+  }
+
+  [data-theme="dark"] {
+    --color-text-primary: var(--color-zinc-50);
+    --color-text-secondary: var(--color-zinc-400);
+    --color-text-tertiary: var(--color-zinc-600);
+    --color-text-accent: var(--color-green-500);
+    --color-text-danger: var(--color-red-500);
+    --color-text-number: 0;
+    --color-surface-muted: var(--color-zinc-900);
+    --color-surface-primary: var(--color-zinc-800);
+    --color-surface-secondary: var(--color-zinc-900);
+    --color-surface-timer-active: var(--color-green-950);
+    --color-surface-timer-ending: var(--color-red-950);
+    --button-rounded-sm: var(--rounded-sm);
+    --button-weight-label: 700;
+    --button-rounded-default: var(--rounded-md);
+    --button-rounded-lg: var(--rounded-lg);
+    --color-button-primary-surface: var(--color-green-500);
+    --color-button-primary-label: var(--color-green-950);
+    --color-button-primary-inverted-surface: var(--color-zinc-800);
+    --color-button-primary-inverted-label: var(--color-green-400);
+    --weights-timer-primary: 800;
+    --weights-timer-secondary: 600;
+    --rounded-lg: 22;
+    --rounded-md: 12;
+    --rounded-sm: 2;
+    --spacing-default: 20;
+    --sizes-note: 12;
+  }
+}
