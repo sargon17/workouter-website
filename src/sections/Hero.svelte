@@ -1,7 +1,7 @@
 
 <script lang="ts">
     import Button from '../components/ui/Button.svelte';
-import mockupImage from '../assets/mockup.png';
+    import mockup from '../../public/mockup.png';   
 
 </script>
 
@@ -18,7 +18,7 @@ import mockupImage from '../assets/mockup.png';
         <div class="flex items-center justify-center relative w-full h-full">
             <h3 class="full-width-heading font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Workouter</h3>
             <div class="relative z-2 w-[25vw]">
-                <img src={mockupImage.src} alt="Workouter Mockup" class="w-full h-full object-cover image-shadow" />
+                <img src={mockup.src} alt="Workouter Mockup" class="w-full h-full object-cover image-shadow" />
             </div>
 
         </div>
