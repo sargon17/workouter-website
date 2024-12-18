@@ -1,5 +1,4 @@
 <script lang="ts">
-    import mockup from '../../public/mockup.png';
 </script>
 
 <div class="w-screen px-8 mt-80">
@@ -26,7 +25,7 @@
       </ul>
     </div>
     <div class="shrink-0 grow bg-green-500 h-full rounded-[2.2rem] aspect-square overflow-hidden flex items-center justify-center">
-        <img src={mockup.src} alt="Workouter Mockup" class="h-full object-contain w-5/6 translate-y-1/4" />
+        <img src='/Mockup.png' alt="Workouter Mockup" class="h-full object-contain w-5/6 translate-y-1/4" />
         </div>
     </div>
 </div>
