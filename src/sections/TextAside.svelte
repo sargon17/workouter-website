@@ -2,9 +2,9 @@
 
 </script>
 
-<div class="w-full px-8">
+<div class="w-full px-borders">
 
-  <div class="max-w-screen-2xl mx-auto pt-[max(10vw,2rem)]">
+  <div class="pt-[max(10vw,2rem)]">
     <div class="flex flex-col md:flex-row items-start justify-center gap-[max(2vw,2rem)]">
       <div class="col-span-4">
         <h2 class="heading font-bold text-text-primary">Your goals, your tool: become better with Workouter</h2>

@@ -30,6 +30,9 @@
   --rounded-sm: 2;
   --spacing-default: 20;
   --sizes-note: 12;
+
+  --spacing-borders: max(3vw, 1rem);
+  --spacing-borders-sm: max(1vw, 1rem);
 }
 
 @layer base {
@@ -89,7 +92,6 @@
   }
 
   [data-theme="light"] {
-    
     /* Semantic Tokens */
     --color-text-primary: var(--color-zinc-800);
     --color-text-secondary: var(--color-zinc-600);
