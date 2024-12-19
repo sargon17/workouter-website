@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<div class="w-screen px-8 mt-80">
+<div class="w-screen px-8 mt-[max(10vw,8rem)]">
 
 <div class="max-w-screen-2xl mx-auto">
   <div class="flex flex-col md:flex-row gap-10">
