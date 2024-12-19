@@ -6,7 +6,8 @@ const button = tv({
   variants: {
     intent: {
       primary: "bg-button-primary-surface hover:bg-button-primary-surface-hover text-button-primary-label",
-      inverted: "bg-button-primary-inverted-surface text-button-primary-inverted-label"
+      inverted: "bg-button-primary-inverted-surface text-button-primary-inverted-label",
+      appstore: "bg-white text-black"
     },
     size: {
       sm: "btn-sm",
