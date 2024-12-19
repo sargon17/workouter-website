@@ -4,7 +4,7 @@
 <div class="w-screen px-8 mt-80">
 
 <div class="max-w-screen-2xl mx-auto">
-  <div class="flex flex-row gap-10">
+  <div class="flex flex-col md:flex-row gap-10">
     <div class="w-1/2 shrink-0 aspect-square">
       <h3 class="subtitle text-text-tertiary uppercase">About the app</h3>
       <h2 class="title md:text-[4vw] font-bold text-text-primary w-3/4 mt-4">All you need in your hand</h2>
