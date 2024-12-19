@@ -5,9 +5,9 @@
 
 <div class="max-w-screen-2xl mx-auto">
   <div class="flex flex-col md:flex-row gap-10">
-    <div class="w-1/2 shrink-0 aspect-square">
+    <div class="md:w-1/2 shrink-0 md:aspect-square">
       <h3 class="subtitle text-text-tertiary uppercase">About the app</h3>
-      <h2 class="title md:text-[4vw] font-bold text-text-primary w-3/4 mt-4">All you need in your hand</h2>
+      <h2 class="heading md:text-[4vw] font-bold text-text-primary md:w-3/4 mt-4">All you need in your hand</h2>
 
       <ul class="flex flex-col">
         <li class="flex flex-row gap-10 border-b border-surface-secondary">
@@ -24,7 +24,7 @@
         </li>
       </ul>
     </div>
-    <div class="shrink-0 grow bg-green-500 h-full rounded-[2.2rem] aspect-square overflow-hidden flex items-center justify-center">
+    <div class="shrink-0 bg-green-500 h-full rounded-[2.2rem] md:w-[40vw] aspect-square overflow-hidden flex items-center justify-center">
         <img src='/Mockup.png' alt="Workouter Mockup" class="h-full object-contain w-5/6 translate-y-1/4" />
         </div>
     </div>
@@ -32,23 +32,18 @@
 </div>
 
 <style>
-    .title {
-        font-size: max(4vw, 2.2rem);
-        margin: 0 0 3vw 0;
-    }
+  .heading {
+    font-size: max(4vw, 1rem);
+    margin-bottom: 1.4em;
+  }
 
     .subtitle {
         font-size: max(1vw, 0.7rem);
     }
 
-    .text-list-number {
-        font-size: max(1.5vw, 1.2rem);
-        margin: 2vw 0;
-    }
-
-    .text-list-title {
-        font-size: max(1.5vw, 1.2rem);
-        margin: 2vw 0;
+    .text-list-number,.text-list-title  {
+        font-size: max(1.5vw, 0.9rem);
+        margin: 1.4em 0;
     }
 
 </style>
