@@ -3,14 +3,14 @@
 
 </script>
 
-<div class="w-full fixed top-0 z-1000 px-8">
-    <div class="py-4 w-full">
-        <div class="grid grid-cols-3 max-w-screen-2xl mx-auto">
+<div class="w-full fixed top-0 z-1000 px-[max(1vw,1rem)]">
+    <div class="py-[max(1vw,1rem)] w-full">
+        <div class="grid grid-cols-3 mx-auto">
             <div class="col-span-1">
                 
             </div>
             <div class="col-span-1 flex items-center justify-center">
-                <h1 class="text-2xl font-bold text-text-accent">Workouter</h1>
+                <h1 class="text-[max(1.5vw,1rem)] font-bold text-text-accent">Workouter</h1>
             </div>
             <div class="col-span-1 flex items-center justify-end">
                 <slot />

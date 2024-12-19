@@ -5,18 +5,18 @@
 </script>
 
 <div>
-    <div class="flex flex-col items-center justify-center min-h-screen">
-        <div class="mt-40 mb-20">
+    <div class="flex flex-col items-center justify-center">
+        <div class="mt-[max(10vw,10rem)] mb-[20vw]">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="text-7xl leading-tight text-text-primary font-semibold max-w-4xl text-center">Logging your workouts has never been this easy</h2>
+                <h2 class="text-[5vw] leading-tight text-text-primary font-semibold max-w-[80vw] text-center">Logging your workouts has never been this easy</h2>
             </div>
-            <div class="flex flex-col items-center justify-center mt-10">
+            <div class="flex flex-col items-center justify-center mt-[2vw]">
                 <Button intent="primary" size="lg">Download for Free</Button>
             </div>
         </div>
         <div class="flex items-center justify-center relative w-full h-full">
             <h3 class="full-width-heading font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Workouter</h3>
-            <div class="relative z-2 w-[25vw]">
+            <div class="relative z-2 w-[60vw] md:w-[25vw]">
                 <img src="/Mockup.png" alt="Workouter Mockup" class="w-full h-full object-cover image-shadow" />
             </div>
 
