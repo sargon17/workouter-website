@@ -6,9 +6,9 @@
 
 <div>
     <div class="flex flex-col items-center justify-center">
-        <div class="mt-[max(10vw,10rem)] mb-[20vw]">
+        <div class="mt-[max(20vw,10rem)] mb-[10vw]">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="text-[5vw] leading-tight text-text-primary font-semibold max-w-[80vw] text-center">Logging your workouts has never been this easy</h2>
+                <h2 class="text-[6vw] leading-tight text-text-primary font-semibold max-w-[80vw] text-center">Logging your workouts has never been this easy</h2>
             </div>
             <div class="flex flex-col items-center justify-center mt-[2vw]">
                 <Button intent="primary" size="lg">Download for Free</Button>
