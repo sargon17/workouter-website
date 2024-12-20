@@ -1,11 +1,11 @@
 <script lang="ts">
 </script>
 
-<div class="w-screen px-borders mt-[max(10vw,8rem)]">
+<div class="px-borders mt-[max(10vw,8rem)]">
 
 
-  <div class="flex flex-col md:flex-row gap-[4%]">
-    <div class="md:w-[48%] shrink-0 md:aspect-square">
+  <div class="flex flex-col w-full md:flex-row gap-[4%]">
+    <div class="md:w-fill shrink-0 md:aspect-square">
       <h3 class="subtitle text-text-tertiary uppercase">About the app</h3>
       <h2 class="heading md:text-[4vw] font-bold text-text-primary md:w-3/4 mt-4 leading-tight">All you need in your hand</h2>
 
@@ -24,7 +24,7 @@
         </li>
       </ul>
     </div>
-    <div class="shrink-0 md:w-[48%] bg-linear-135 from-banner-surface-primary to-banner-surface-secondary h-full rounded-[2.2rem] aspect-square overflow-hidden flex items-center justify-center enter-view-animation">
+    <div class=" w-full bg-linear-135 from-banner-surface-primary to-banner-surface-secondary h-full rounded-[2.2rem] aspect-square overflow-hidden flex items-center justify-center enter-view-animation">
         <img src='/Mockup.png' alt="Workouter Mockup" class="h-full object-contain h-5/6 translate-y-1/4 shadow-image relative z-2" />
         </div>
     </div>
