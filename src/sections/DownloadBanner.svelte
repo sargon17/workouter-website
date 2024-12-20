@@ -12,22 +12,22 @@
         </div>
         <div class="md:w-1/2 text-download-banner-label flex flex-col justify-center gap-[3vw] md:py-[4vw] md:px-[2vw] p-[8vw] order-0 md:order-1">
             <h2 class="heading font-bold text-[6vw] md:text-[3vw]">Download Workouter</h2>
-            <ul class="flex flex-col md:flex-row md:gap-[1vw] gap-[6vw] w-full">
+            <ul class="flex flex-col md:flex-row md:gap-[1vw] gap-[10vw] w-full mb-[5vw] md:mb-0">
                 <li class="md:w-1/3 flex flex-col md:gap-[1vw] gap-[2vw]">
                     <TrendingUp class="w-[4vw] md:w-[1.2vw] aspect-square" />    
-                    <p class="md:text-[1.2vw] text-[4vw]">
+                    <p class="md:text-[1.2vw] text-[3vw]">
                         Et fermentum sed integer 
                     </p>
                 </li >
                 <li class="md:w-1/3 flex flex-col md:gap-[1vw] gap-[2vw]">
                     <TrendingUp class="w-[4vw] md:w-[1.2vw] aspect-square" />    
-                    <p class="md:text-[1.2vw] text-[4vw]">
+                    <p class="md:text-[1.2vw] text-[3vw]">
                         Et fermentum sed integer 
                     </p>
                 </li >
                 <li class="md:w-1/3 flex flex-col md:gap-[1vw] gap-[2vw]">
                     <TrendingUp class="w-[4vw] md:w-[1.2vw] aspect-square" />    
-                    <p class="md:text-[1.2vw] text-[4vw]">
+                    <p class="md:text-[1.2vw] text-[3vw]">
                         Et fermentum sed integer 
                     </p>
                 </li >
