@@ -7,7 +7,7 @@
   <div class="flex flex-col md:flex-row gap-[4%]">
     <div class="md:w-[48%] shrink-0 md:aspect-square">
       <h3 class="subtitle text-text-tertiary uppercase">About the app</h3>
-      <h2 class="heading md:text-[4vw] font-bold text-text-primary md:w-3/4 mt-4">All you need in your hand</h2>
+      <h2 class="heading md:text-[4vw] font-bold text-text-primary md:w-3/4 mt-4 leading-tight">All you need in your hand</h2>
 
       <ul class="flex flex-col mb-[5vw] md:mb-0">
         <li class="flex flex-row gap-10 border-b border-surface-secondary">

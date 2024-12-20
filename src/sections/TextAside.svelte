@@ -7,7 +7,7 @@
   <div>
     <div class="flex flex-col md:flex-row items-start justify-center gap-[max(2vw,2rem)] enter-view-animation">
       <div class="col-span-4">
-        <h2 class="heading font-bold text-text-primary">Your goals, your tool: become better with Workouter</h2>
+        <h2 class="heading font-bold text-text-primary leading-tight">Your goals, your tool: become better with Workouter</h2>
       </div>
       <div class="col-span-2">
         <p class="text-text-secondary text">Workouter is designed to help you track your workouts without distractions. Simple, focused, and built for progress. Stay consistent, track every set, and see how far you can go.
