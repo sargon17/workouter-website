@@ -9,7 +9,7 @@
       <h3 class="subtitle text-text-tertiary uppercase">About the app</h3>
       <h2 class="heading md:text-[4vw] font-bold text-text-primary md:w-3/4 mt-4">All you need in your hand</h2>
 
-      <ul class="flex flex-col">
+      <ul class="flex flex-col mb-[5vw] md:mb-0">
         <li class="flex flex-row gap-10 border-b border-surface-secondary">
             <p class="text-list-number font-normal text-text-accent">01</p>
           <h4 class="text-list-title font-semibold text-text-primary">Workout Planing</h4>
@@ -24,8 +24,8 @@
         </li>
       </ul>
     </div>
-    <div class="shrink-0 md:w-[48%] bg-green-500 h-full rounded-[2.2rem] aspect-square overflow-hidden flex items-center justify-center">
-        <img src='/Mockup.png' alt="Workouter Mockup" class="h-full object-contain w-5/6 translate-y-1/4" />
+    <div class="shrink-0 md:w-[48%] bg-linear-135 from-banner-surface-primary to-banner-surface-secondary h-full rounded-[2.2rem] aspect-square overflow-hidden flex items-center justify-center">
+        <img src='/Mockup.png' alt="Workouter Mockup" class="h-full object-contain h-5/6 translate-y-1/4 shadow-image" />
         </div>
     </div>
 </div>

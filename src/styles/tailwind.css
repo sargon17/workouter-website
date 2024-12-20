@@ -34,10 +34,10 @@
   --spacing-borders: max(3vw, 1rem);
   --spacing-borders-sm: max(1vw, 1rem);
 
-  --color-download-banner-surface-primary: var(--color-green-500);
-  --color-download-banner-surface-secondary: var(--color-green-600);
+  --color-banner-surface-primary: var(--color-green-500);
+  --color-banner-surface-secondary: var(--color-green-600);
 
-  --color-download-banner-label: var(--color-green-50);
+  --color-banner-label: var(--color-green-50);
 }
 
 @layer base {
@@ -121,10 +121,10 @@
     --color-button-primary-inverted-surface: var(--color-zinc-100);
     --color-button-primary-inverted-label: var(--color-green-600);
 
-    --color-download-banner-surface-primary: var(--color-green-500);
-    --color-download-banner-surface-secondary: var(--color-green-600);
+    --color-banner-surface-primary: var(--color-green-500);
+    --color-banner-surface-secondary: var(--color-green-600);
 
-    --color-download-banner-label: var(--color-green-50);
+    --color-banner-label: var(--color-green-50);
   }
 
   [data-theme="dark"] {
@@ -148,8 +148,14 @@
     --color-button-primary-inverted-surface: var(--color-zinc-800);
     --color-button-primary-inverted-label: var(--color-green-400);
 
-    --color-download-banner-surface-primary: var(--color-green-500);
-    --color-download-banner-surface-secondary: var(--color-green-600);
-    --color-download-banner-label: var(--color-green-50);
+    --color-banner-surface-primary: var(--color-green-500);
+    --color-banner-surface-secondary: var(--color-green-600);
+    --color-banner-label: var(--color-green-50);
+  }
+}
+
+@layer utilities {
+  .shadow-image {
+    filter: drop-shadow(0 40px 20px rgba(0, 0, 0, 0.45));
   }
 }

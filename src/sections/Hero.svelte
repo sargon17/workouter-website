@@ -17,7 +17,7 @@
         <div class="flex items-center justify-center relative w-full h-full">
             <h3 class="full-width-heading font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Workouter</h3>
             <div class="relative z-2 w-[60vw] md:w-[25vw]">
-                <img src="/Mockup.png" alt="Workouter Mockup" class="w-full h-full object-cover image-shadow" />
+                <img src="/Mockup.png" alt="Workouter Mockup" class="w-full h-full object-cover shadow-image" />
             </div>
 
         </div>
@@ -32,10 +32,6 @@
         background-clip: text;
         color: transparent;
         -webkit-text-fill-color: transparent;
-    }
-
-    .image-shadow {
-        filter: drop-shadow(0 40px 20px rgba(0, 0, 0, 0.45));
     }
 
 </style>
