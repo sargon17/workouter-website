@@ -158,4 +158,66 @@
   .shadow-image {
     filter: drop-shadow(0 40px 20px rgba(0, 0, 0, 0.45));
   }
+
+  .move-on-scroll-up {
+    animation-timeline: scroll();
+    animation-name: move;
+  }
+
+  .move-on-scroll-down {
+    animation-timeline: scroll();
+    animation-name: move;
+    animation-direction: reverse;
+  }
+
+  @supports (animation-timeline: view()) {
+    .enter-view-animation {
+      animation-timeline: view();
+      animation-name: enter-view-animation;
+      animation-fill-mode: both;
+    }
+
+    .exit-view-animation {
+      animation-timeline: view();
+      animation-name: exit-view-animation;
+      animation-fill-mode: both;
+    }
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateY(20%);
+    }
+    100% {
+      transform: translateY(-20%);
+    }
+  }
+
+  @keyframes enter-view-animation {
+    0%,
+    5% {
+      opacity: 0;
+      filter: blur(10px);
+      transform: scale(0.96);
+    }
+    40% {
+      opacity: 1;
+      filter: blur(0px);
+      transform: scale(1);
+    }
+  }
+
+  @keyframes exit-view-animation {
+    60% {
+      opacity: 1;
+      filter: blur(0px);
+      transform: scale(1);
+    }
+    95%,
+    100% {
+      opacity: 0;
+      filter: blur(10px);
+      transform: scale(0.96);
+    }
+  }
 }

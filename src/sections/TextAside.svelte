@@ -4,8 +4,8 @@
 
 <div class="w-full px-borders">
 
-  <div class="pt-[max(10vw,2rem)]">
-    <div class="flex flex-col md:flex-row items-start justify-center gap-[max(2vw,2rem)]">
+  <div>
+    <div class="flex flex-col md:flex-row items-start justify-center gap-[max(2vw,2rem)] enter-view-animation">
       <div class="col-span-4">
         <h2 class="heading font-bold text-text-primary">Your goals, your tool: become better with Workouter</h2>
       </div>

@@ -24,8 +24,8 @@
         </li>
       </ul>
     </div>
-    <div class="shrink-0 md:w-[48%] bg-linear-135 from-banner-surface-primary to-banner-surface-secondary h-full rounded-[2.2rem] aspect-square overflow-hidden flex items-center justify-center">
-        <img src='/Mockup.png' alt="Workouter Mockup" class="h-full object-contain h-5/6 translate-y-1/4 shadow-image" />
+    <div class="shrink-0 md:w-[48%] bg-linear-135 from-banner-surface-primary to-banner-surface-secondary h-full rounded-[2.2rem] aspect-square overflow-hidden flex items-center justify-center enter-view-animation">
+        <img src='/Mockup.png' alt="Workouter Mockup" class="h-full object-contain h-5/6 translate-y-1/4 shadow-image relative z-2" />
         </div>
     </div>
 </div>
