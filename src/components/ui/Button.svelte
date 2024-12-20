@@ -10,6 +10,7 @@ const button = tv({
       appstore: "bg-white text-black"
     },
     size: {
+      icon: "p-2",
       sm: "btn-sm",
       md: "btn-md", 
       lg: "btn-lg"

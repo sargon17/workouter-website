@@ -1,6 +1,8 @@
 <script lang="ts">
     import Button from './ui/Button.svelte';
     import { onMount } from 'svelte';
+    import { Sun, Moon } from 'lucide-svelte';
+    
 
 let currentTheme = 'light';
 
@@ -22,7 +24,11 @@ onMount(() => {
 });
 </script>
 
-    <Button intent="primary" size="sm" on:click={() => toggleTheme()} aria-label="Toggle theme">
-        {currentTheme === 'dark' ? 'Light Mode' : 'Dark Mode'}
+    <Button intent="inverted" size="icon" on:click={toggleTheme} aria-label="Toggle theme">
+        {#if currentTheme === 'dark'}
+            <Moon />
+        {:else}
+            <Sun />
+        {/if}
     </Button>
 
