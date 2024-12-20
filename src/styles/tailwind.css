@@ -33,6 +33,11 @@
 
   --spacing-borders: max(3vw, 1rem);
   --spacing-borders-sm: max(1vw, 1rem);
+
+  --color-download-banner-surface-primary: var(--color-green-500);
+  --color-download-banner-surface-secondary: var(--color-green-600);
+
+  --color-download-banner-label: var(--color-green-50);
 }
 
 @layer base {
@@ -104,13 +109,6 @@
     --color-surface-secondary: var(--color-zinc-100);
     --color-surface-timer-active: var(--color-green-50);
     --color-surface-timer-ending: var(--color-red-50);
-    --weights-timer-primary: 800;
-    --weights-timer-secondary: 600;
-    --rounded-lg: 22;
-    --rounded-md: 12;
-    --rounded-sm: 2;
-    --spacing-default: 20;
-    --sizes-note: 12;
 
     /* Component Tokens */
     --button-rounded-sm: var(--rounded-sm);
@@ -122,6 +120,11 @@
     --color-button-primary-label: var(--color-green-50);
     --color-button-primary-inverted-surface: var(--color-zinc-100);
     --color-button-primary-inverted-label: var(--color-green-600);
+
+    --color-download-banner-surface-primary: var(--color-green-500);
+    --color-download-banner-surface-secondary: var(--color-green-600);
+
+    --color-download-banner-label: var(--color-green-50);
   }
 
   [data-theme="dark"] {
@@ -144,12 +147,9 @@
     --color-button-primary-label: var(--color-green-950);
     --color-button-primary-inverted-surface: var(--color-zinc-800);
     --color-button-primary-inverted-label: var(--color-green-400);
-    --weights-timer-primary: 800;
-    --weights-timer-secondary: 600;
-    --rounded-lg: 22;
-    --rounded-md: 12;
-    --rounded-sm: 2;
-    --spacing-default: 20;
-    --sizes-note: 12;
+
+    --color-download-banner-surface-primary: var(--color-green-500);
+    --color-download-banner-surface-secondary: var(--color-green-600);
+    --color-download-banner-label: var(--color-green-50);
   }
 }

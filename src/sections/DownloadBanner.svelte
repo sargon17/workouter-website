@@ -4,13 +4,13 @@
 
 </script>
 
-<div class="w-full px-borders md:h-[max(25vw,25vh)] mt-[5vw]">
-    <div class="bg-linear-135 from-green-500 to-green-600 rounded-[2.2rem] h-full flex overflow-hidden flex-col md:flex-row">
+<div class="w-full px-borders md:h-[30vw] my-[5vw]">
+    <div class="bg-linear-135 from-download-banner-surface-primary to-download-banner-surface-secondary rounded-[2.2rem] h-full flex overflow-hidden flex-col md:flex-row">
         <div class="md:w-1/2 flex items-center justify-center order-1 md:order-0 h-[60vw] md:h-auto ">
             <img src="/Mockup.png" alt="Workouter Mockup" class=" object-cover shrink-0 contain w-auto md:h-[50vw] h-[120vw] translate-y-1/4 md:-translate-x-1/4" />
             <img src="/Mockup.png" alt="Workouter Mockup" class="object-cover w-auto translate-y-1/4 md:h-[50vw] h-[120vw] shrink-0 md:-translate-x-1/4" />
         </div>
-        <div class="md:w-1/2 text-text-primary flex flex-col justify-center gap-[3vw] md:py-[4vw] md:pr-[2vw] p-[8vw] order-0 md:order-1">
+        <div class="md:w-1/2 text-download-banner-label flex flex-col justify-center gap-[3vw] md:py-[4vw] md:px-[2vw] p-[8vw] order-0 md:order-1">
             <h2 class="heading font-bold text-[6vw] md:text-[3vw]">Download Workouter</h2>
             <ul class="flex flex-col md:flex-row md:gap-[1vw] gap-[6vw] w-full">
                 <li class="md:w-1/3 flex flex-col md:gap-[1vw] gap-[2vw]">
