@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Privacy Policy">
+  <main class="px-borders py-16 max-w-3xl mx-auto">
+    <h1 class="text-3xl font-bold mb-8">Privacy Policy</h1>
+
+    <section class="prose prose-invert">
+      <h2>General information</h2>
+      <p>Workouter is an app released in the AppStore under Mykhaylo Tymofyeyev personal account.</p>
+      
+      <p>On the most basic level, I value your privacy and make decisions in our development to respect it to the best of our ability.</p>
+
+      <h2>Storage and Sync</h2>
+      <p>All my Apps stores your data locally on the devices you use them, and syncs across devices using Apple's iCloud. Specifically, the CloudKit portion of iCloud, storing data in your private iCloud database.</p>
+
+      <h2>Protection of Certain Personally-Identifying Information</h2>
+      <p>No Personally-Identifying Information is transmitted to external locations when using Workouter.</p>
+
+      <p>Non-personally identifiable information such as device type and operating system version to our servers. This is used in aggregate to help facilitate development decisions.</p>
+
+      <h2>Cookies</h2>
+      <p>A cookie is a string of information that a website stores on a visitor's computer, and that the visitor's browser provides to the website each time the visitor returns. This website identify and track visitors, their usage of website, and their website access preferences. Visitors who do not wish to have cookies placed on their computers should set their browsers to refuse cookies before using websites.</p>
+
+      <h2>Questions about data handling</h2>
+      <p>If you have a question about this privacy and how your data are collected, used and stored when you use Workouter, please feel free to email me at <a href="mailto:mykhaylo.tymofyeyev@gmail.com" class="text-accent hover:underline">mykhaylo.tymofyeyev@gmail.com</a> with the subject line "Data handling".</p>
+    </section>  
+  </main>
+</Layout>
+
+
+<style>
+  .prose {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--color-text-primary);
+
+  }
+
+  .prose h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+  }
+
+  .prose p {
+    margin-bottom: 1rem;
+  }
+
+  .prose a {
+    color: var(--color-text-accent);
+    text-decoration: underline;
+  }
+
+  .prose a:hover {
+    color: var(--color-text-accent);
+  }
+</style>
+
+
+
