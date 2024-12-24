@@ -14,7 +14,7 @@
         <img
           src={image}
           alt={title}
-          class="w-full h-full object-cover object-top md:max-w-[30vw] "
+          class="w-full h-full object-cover object-top max-w-[60vw] md:max-w-[30vw] "
         />
       </div>
     </div>
@@ -37,7 +37,7 @@
         <img
           src={image}
           alt={title}
-          class="w-full h-full object-cover object-top md:max-w-[30vw]"
+          class="w-full h-full object-cover object-top max-w-[60vw] md:max-w-[30vw]"
         />
       </div>
     </div>
