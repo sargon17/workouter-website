@@ -2,7 +2,7 @@
 import { tv } from 'tailwind-variants';
 
 const button = tv({
-  base: "rounded-[1em] font-semibold transition-colors cursor-pointer hover:scale-99 active:scale-98 hover:shadow-lg active:shadow-none transition-all duration-100 hover:duration-300 active:duration-50 shadow-lg",
+  base: "rounded-[1em] font-semibold transition-colors cursor-pointer hover:scale-99 active:scale-98 hover:shadow-lg active:shadow-none transition-all duration-100 hover:duration-300 active:duration-50 shadow-lg inline-block",
   variants: {
     intent: {
       primary: "bg-button-primary-surface hover:bg-button-primary-surface-hover text-button-primary-label",
@@ -24,10 +24,9 @@ const button = tv({
 </script>
 
 
-<button class={button({ intent: $$props.intent, size: $$props.size })} {...$$props}
-on:click>
+<a class={button({ intent: $$props.intent, size: $$props.size })} {...$$props} target="_blank" rel="noopener noreferrer" >
     <slot />
-</button>
+</a>
 
 <style>
   .btn-sm {
