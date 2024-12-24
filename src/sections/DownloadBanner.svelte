@@ -8,7 +8,7 @@
     <div class="bg-linear-135 from-banner-surface-primary to-banner-surface-secondary rounded-[2.2rem] h-full flex overflow-hidden flex-col md:flex-row">
         <div class="md:w-1/2 flex items-center justify-center order-1 md:order-0 h-[60vw] md:h-auto ">
             <img src="/Mockup.png" alt="Workouter Mockup" class=" object-cover shrink-0 contain w-auto md:h-[50vw] h-[120vw] translate-y-1/4 md:-translate-x-1/4 shadow-image move-on-scroll-up" />
-            <img src="/Mockup.png" alt="Workouter Mockup" class="object-cover w-auto translate-y-1/4 md:h-[50vw] h-[120vw] shrink-0 md:-translate-x-1/4 shadow-image move-on-scroll-up" />
+            <img src="/Statistics.png" alt="Workouter Mockup" class="object-cover w-auto translate-y-1/4 md:h-[50vw] h-[120vw] shrink-0 md:-translate-x-1/4 shadow-image move-on-scroll-up" />
         </div>
         <div class="md:w-1/2 text-banner-label flex flex-col justify-center gap-[3vw] md:py-[4vw] md:px-[2vw] p-[8vw] order-0 md:order-1">
             <h2 class="heading font-bold text-[6vw] md:text-[3vw]">Download Workouter</h2>
