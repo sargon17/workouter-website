@@ -14,19 +14,34 @@ const button = tv({
       sm: "btn-sm",
       md: "btn-md", 
       lg: "btn-lg"
+    },
+    type: {
+      button: "button",
+      a: "a"
     }
   },
   defaultVariants: {
     intent: "primary",
-    size: "md"
-  }
+    size: "md",
+    type: "button"
+  },
 });
 </script>
 
 
-<a class={button({ intent: $$props.intent, size: $$props.size })} {...$$props} target="_blank" rel="noopener noreferrer" >
+{#if $$props.href}
+  <a class={button({ intent: $$props.intent, size: $$props.size, type: 'a' })} {...$$props} target="_blank" rel="noopener noreferrer">
     <slot />
-</a>
+  </a>
+{:else}
+  <button 
+    class={button({ intent: $$props.intent, size: $$props.size, type: 'button' })} 
+    {...$$props}
+    on:click
+  >
+    <slot />
+  </button>
+{/if}
 
 <style>
   .btn-sm {

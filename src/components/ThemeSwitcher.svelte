@@ -24,7 +24,7 @@ onMount(() => {
 });
 </script>
 
-    <Button intent="inverted" size="icon" on:click={toggleTheme} aria-label="Toggle theme">
+    <Button type="button" intent="inverted" size="icon" on:click={toggleTheme} aria-label="Toggle theme">
         {#if currentTheme === 'dark'}
             <Moon />
         {:else}

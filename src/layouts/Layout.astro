@@ -3,6 +3,7 @@ import '../styles/tailwind.css';
 import ThemeManager from '../ThemeManager.astro';
 import Header from '../sections/Header.svelte';
 import ThemeSwitcher from '../components/ThemeSwitcher.svelte';
+import Footer from '../sections/Footer.svelte';
 ---  
 
 <!doctype html>
@@ -20,6 +21,7 @@ import ThemeSwitcher from '../components/ThemeSwitcher.svelte';
 			<ThemeSwitcher client:only="svelte" />
 		</Header>
 		<slot />
+		<Footer />
 	</body>
 </html>
 
