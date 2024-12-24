@@ -1,6 +1,6 @@
 <script lang="ts">
     import Button from '../components/ui/Button.svelte'
-    import { TrendingUp } from 'lucide-svelte'
+    import { TrendingUp, CheckCheck, BicepsFlexed } from 'lucide-svelte'
 
 </script>
 
@@ -12,23 +12,23 @@
         </div>
         <div class="md:w-1/2 text-banner-label flex flex-col justify-center gap-[3vw] md:py-[4vw] md:px-[2vw] p-[8vw] order-0 md:order-1">
             <h2 class="heading font-bold text-[6vw] md:text-[3vw]">Download Workouter</h2>
-            <ul class="flex flex-col md:flex-row md:gap-[1vw] gap-[10vw] w-full mb-[5vw] md:mb-0">
-                <li class="md:w-1/3 flex flex-col md:gap-[1vw] gap-[2vw]">
-                    <TrendingUp class="w-[4vw] md:w-[1.2vw] aspect-square" />    
-                    <p class="md:text-[1.2vw] text-[3vw]">
-                        Et fermentum sed integer 
+            <ul class="flex flex-col md:flex-row md:gap-[1vw] gap-[4vw] w-full mb-[5vw] md:mb-0 py-[6vw] md:py-0">
+                <li class="md:w-1/3 flex items-center md:items-start md:flex-col md:gap-[1vw] gap-[2vw]">
+                    <TrendingUp class="w-[max(4vw,3rem)] md:w-[2vw] aspect-square" />    
+                    <p class="md:text-[1.2vw] font-semibold text-[max(3vw, 2rem)]">
+                        Your fitness journey starts here.
                     </p>
                 </li >
-                <li class="md:w-1/3 flex flex-col md:gap-[1vw] gap-[2vw]">
-                    <TrendingUp class="w-[4vw] md:w-[1.2vw] aspect-square" />    
-                    <p class="md:text-[1.2vw] text-[3vw]">
-                        Et fermentum sed integer 
+                <li class="md:w-1/3 flex items-center md:items-start md:flex-col md:gap-[1vw] gap-[2vw]">
+                    <CheckCheck class="w-[max(4vw,3rem)] md:w-[2vw] aspect-square" />    
+                    <p class="md:text-[1.2vw] font-semibold text-[max(3vw, 2rem )]">
+                        Track. Plan. Progress.
                     </p>
                 </li >
-                <li class="md:w-1/3 flex flex-col md:gap-[1vw] gap-[2vw]">
-                    <TrendingUp class="w-[4vw] md:w-[1.2vw] aspect-square" />    
-                    <p class="md:text-[1.2vw] text-[3vw]">
-                        Et fermentum sed integer 
+                <li class="md:w-1/3 flex items-center md:items-start md:flex-col md:gap-[1vw] gap-[2vw]">
+                    <BicepsFlexed class="w-[max(4vw,3rem)] md:w-[2vw] aspect-square" />    
+                    <p class="md:text-[1.2vw] font-semibold text-[max(3vw, 2rem)]">
+                        Smash your goals with Workouter. 
                     </p>
                 </li >
             </ul>
