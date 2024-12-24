@@ -11,8 +11,11 @@
 
 <div class="w-full px-borders flex flex-col items-center justify-center">
       <h2 class="text-[18vw] font-bold text-text-primary leading-tight">Workouter</h2>
-      <div class="flex flex-col items-center justify-center">
-        <p class="text-text-secondary text-[1vw]">©  {currentYear} Workouter</p>
+      <div class="flex items-center justify-center gap-[max(1vw,0.75rem)] pb-[max(1vw,0.75rem)]">
+        <p class="text-text-secondary text-[max(1vw,0.75rem)]">©  {currentYear} Workouter</p>
+        <p class="text-text-secondary text-[max(1vw,0.75rem)]">
+            Made by <a href="https://tymofyeyev.com" target="_blank" rel="noopener noreferrer">Mykhaylo Tymofyeyev</a>
+        </p>
       </div>
 </div>
 
