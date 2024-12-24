@@ -154,6 +154,12 @@
   }
 }
 
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @layer utilities {
   .shadow-image {
     filter: drop-shadow(0 40px 20px rgba(0, 0, 0, 0.45));
