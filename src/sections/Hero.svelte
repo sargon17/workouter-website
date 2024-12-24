@@ -6,7 +6,7 @@
 
 <div>
     <div class="flex flex-col items-center justify-center">
-        <div class="md:mt-[max(20vw,10rem)] mt-[45svh] supports-scroll-animation mb-[max(26vw,20rem)]">
+        <div class="md:mt-[max(20vw,10rem)] mt-[45svh] supports-scroll-animation md:mb-[max(26vw,20rem)] mb-[10vw]">
             <div class="flex flex-col items-center justify-center">
                 <h2 class="text-[6vw] leading-tight text-text-primary font-semibold max-w-[80vw] text-center exit-view-animation">Logging your workouts has never been this easy</h2>
             </div>
