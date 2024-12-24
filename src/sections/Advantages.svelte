@@ -12,15 +12,15 @@
       <ul class="flex flex-col mb-[5vw] md:mb-0">
         <li class="flex flex-row gap-10 border-b border-surface-secondary">
             <p class="text-list-number font-normal text-text-accent">01</p>
-          <h4 class="text-list-title font-semibold text-text-primary">Workout Planing</h4>
+          <h4 class="text-list-title font-semibold text-text-primary">Advanced routine planning</h4>
         </li>
         <li class="flex flex-row gap-10 border-b border-surface-secondary">
             <p class="text-list-number font-normal text-text-accent">02</p>
-          <h4 class="text-list-title font-semibold text-text-primary">Log every rep</h4>
+          <h4 class="text-list-title font-semibold text-text-primary">Session tracking</h4>
         </li>
         <li class="flex flex-row gap-10 border-b border-surface-secondary">
             <p class="text-list-number font-normal text-text-accent">03</p>
-          <h4 class="text-list-title font-semibold text-text-primary">Analyze (🚧 wip)</h4>
+          <h4 class="text-list-title font-semibold text-text-primary">Analyze your progress</h4>
         </li>
       </ul>
     </div>
