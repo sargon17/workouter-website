@@ -37,7 +37,7 @@
              <div>
 
              
-            <Button intent="appstore" size="sm">
+            <Button intent="appstore" size="sm" href="https://apps.apple.com/it/app/workouter-fitness-logger/id6736994979">
                 <svg xmlns="http://www.w3.org/2000/svg" width="195" height="66" viewBox="0 0 195 66" fill="none" 
                 class="w-[30vw] md:w-[10vw] h-auto"
                 >

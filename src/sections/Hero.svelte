@@ -11,7 +11,7 @@
                 <h2 class="text-[6vw] leading-tight text-text-primary font-semibold max-w-[80vw] text-center exit-view-animation">Logging your workouts has never been this easy</h2>
             </div>
             <div class="flex flex-col items-center justify-center mt-[2vw] exit-view-animation">
-                <Button intent="primary" size="lg">Download for Free</Button>
+                <Button intent="primary" size="lg" href="https://apps.apple.com/it/app/workouter-fitness-logger/id6736994979">Download for Free</Button>
             </div>
         </div>
         <div class="flex items-center justify-center relative w-full h-full mb-10 supports-scroll-animation">
