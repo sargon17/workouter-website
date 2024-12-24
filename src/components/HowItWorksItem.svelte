@@ -6,7 +6,7 @@
   export let index: number;
 </script>
 
-<div class="flex flex-col md:flex-row items-center gap-8 py-12 first:pt-0 last:pb-0 gap-y-12 justify-center">
+<div class="flex flex-col md:flex-row items-center gap-8 py-20 first:pt-0 last:pb-0 gap-y-12 justify-center">
   {#if align === 'left'}
     <!-- Image Section -->
     <div class="max-w-[max(40vw, 300px)] w-full aspect-square border-b-2 border-surface-secondary">

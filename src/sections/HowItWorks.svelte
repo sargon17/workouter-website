@@ -29,7 +29,7 @@
   ];
 </script>
 
-<section class="py-20">
+<section class="py-30">
   <div class="px-borders">
     <div class="text-center">
       <h2 class="heading font-bold text-text-primary ">
@@ -53,7 +53,7 @@
 
 <style>
     .heading {
-        font-size: max(4vw, 1rem);
+        font-size: max(4vw, 2rem);
         margin-bottom: 1.4em;
     }
 </style>
