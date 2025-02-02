@@ -1,6 +1,6 @@
-@tailwind components;
 @tailwind utilities;
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
   --color-text-primary: var(--color-zinc-800);
