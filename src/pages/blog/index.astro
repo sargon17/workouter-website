@@ -7,28 +7,20 @@ import Layout from '../../layouts/Layout.astro';
 // Load the content collection named "blog"
 const posts = await getCollection('blog');
 
-console.log(posts);
 ---
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Blog Home</title>
-  </head>
-  <body>
-    <Layout>
-      <section class="max-w-screen-lg mt-30 mx-auto p-4">
-        <h1>Blog Posts</h1>
-        <ul>
-          {posts.map((post: CollectionEntry<"blog">) => (
-            <li>
-            <a href={`/blog/${post.slug}`}>
-              {post.data.title} – {post.data.pubDate}
-            </a>
-            <p>{post.data.description}</p>
-          </li>
-        ))}
-      </ul>
-    </section>
-    </Layout>
-  </body>
-</html>
+
+<Layout>
+  <section class="max-w-screen-lg mt-30 mx-auto p-4">
+    <h1>Blog Posts</h1>
+    <ul>
+      {posts.map((post: CollectionEntry<"blog">) => (
+        <li>
+        <a href={`/blog/${post.slug}`}>
+          {post.data.title} – {post.data.pubDate}
+        </a>
+        <p>{post.data.description}</p>
+      </li>
+    ))}
+  </ul>
+</section>
+</Layout>
