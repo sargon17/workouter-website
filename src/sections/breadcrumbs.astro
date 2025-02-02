@@ -1,0 +1,33 @@
+---
+interface Breadcrumb {
+  label: string;
+  href: string;
+}
+
+interface Props {
+  path: Breadcrumb[];
+}
+
+const { path } = Astro.props as Props;
+---
+<nav class="text-sm" aria-label="Breadcrumb">
+  <ol class="flex space-x-2">
+    {path.map((crumb, index) => (
+      <li class="flex items-center">
+        {index > 0 && <span class="mx-2">/</span>}
+        {index === path.length - 1 ? (
+          <span class="text-text-secondary" aria-current="page">
+            {crumb.label}
+          </span>
+        ) : (
+          <a
+            href={crumb.href}
+            class="text-text-accent hover:underline underline-offset-4"
+          >
+            {crumb.label}
+          </a>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>

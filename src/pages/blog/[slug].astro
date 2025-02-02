@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-
+import Breadcrumbs from '../../sections/breadcrumbs.astro';
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   return posts.map((post: CollectionEntry<"blog">) => ({
@@ -16,12 +16,16 @@ const { post } = Astro.props as { post: CollectionEntry<"blog"> };
 const { Content } = await post.render();
 ---
 <Layout>
-  <article class="max-w-screen-lg my-30 mx-auto p-4">
-    <h1 class="text-4xl font-bold">{post.data.title}</h1>
+  
+  <div class="max-w-screen-lg mt-30 mx-auto p-4">
+    <Breadcrumbs path={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: post.data.title, href: `/blog/${post.slug}` }]} />
+  </div>
+
+  <article class="max-w-screen-lg my-10 mx-auto p-4">
+    <h1 class="text-5xl font-bold">{post.data.title}</h1>
     <p class="text-sm text-gray-500 mb-10">Published on {post.data.pubDate}</p>
     <div class="mt-4 article-content">
       <Content />
     </div>
   </article>
 </Layout>
-
