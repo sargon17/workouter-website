@@ -1,5 +1,5 @@
 ---
-title: "t"
+title: "How Many Sets Per Workout?"
 pubDate: "2023-10-01T00:00:00.000Z"
 description: "An exploration into the science of how many sets per workout are optimal."
 ---
