@@ -15,12 +15,13 @@ const posts = await getCollection('blog');
     <ul>
       {posts.map((post: CollectionEntry<"blog">) => (
         <li>
-        <a href={`/blog/${post.slug}`}>
-          {post.data.title} – {post.data.pubDate}
-        </a>
-        <p>{post.data.description}</p>
-      </li>
-    ))}
+          <img src={post.data.image} alt={post.data.title} class="w-full h-auto rounded-lg my-4" />
+          <a href={`/blog/${post.slug}`}>
+            {post.data.title} – {post.data.pubDate}
+          </a>
+          <p>{post.data.description}</p>
+        </li>
+      ))}
   </ul>
 </section>
 </Layout>
