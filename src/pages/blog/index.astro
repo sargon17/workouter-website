@@ -15,7 +15,7 @@ const posts = await getCollection('blog');
     <ul class="list-none grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {posts.map((post: CollectionEntry<"blog">) => (
         <li>
-          <a href={`/blog/${post.slug}`} class="block transition-all duration-300 hover:bg-surface-secondary p-4 rounded-lg border border-surface-secondary">
+          <a href={`/blog/${post.slug}`} class="block transition-all duration-300 hover:bg-surface-secondary rounded-lg">
             <img src={post.data.image} alt={post.data.title} class="w-full h-auto rounded-lg my-4" />
             <h2 class="text-2xl font-bold lg:text-4xl mb-2">{post.data.title}</h2>
             <p class="text-sm text-text-secondary">{new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} • {Math.ceil(post.body.split(' ').length / 150)} min read</p>
