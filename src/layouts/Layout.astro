@@ -4,6 +4,10 @@ import ThemeManager from '../ThemeManager.astro';
 import Header from '../sections/Header.svelte';
 import ThemeSwitcher from '../components/ThemeSwitcher.svelte';
 import Footer from '../sections/Footer.svelte';
+import { Umami } from 'astro-analytics';
+
+
+// <script defer src="https://cloud.umami.is/script.js" data-website-id="5fa352f4-3cc3-4ecd-9691-3f7b5de0e362"></script>
 ---  
 
 <!doctype html>
@@ -13,8 +17,10 @@ import Footer from '../sections/Footer.svelte';
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="sitemap" href="/sitemap-index.xml" />
 		<title>Workouter</title>
 		<ThemeManager />
+		<Umami site="https://workouter.com" dataId="5fa352f4-3cc3-4ecd-9691-3f7b5de0e362" host="https://cloud.umami.is" />
 	</head>
 	<body class="bg-surface-primary text-text-primary">
 		<Header>
