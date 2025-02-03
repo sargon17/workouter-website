@@ -9,3 +9,5 @@ Requirements:
     Formatting: Use clear headings and subheadings, bullet points where appropriate, and ensure the final output is well-organized and easy to navigate.
 
 Task: Based on the above instructions and the provided transcription context, produce an extensive article that synthesizes all the research, includes relevant, verified sources, and provides practical advice for workout enthusiasts—all without any mention of the original video.
+
+write always in english
