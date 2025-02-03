@@ -1,0 +1,8 @@
+[text](https://x.com/HevyApp)
+[text](https://x.com/Gentler_App)
+[text](https://x.com/liftr_app)
+[text](https://x.com/EndelSound)
+[text](https://x.com/Workoutapp_io)
+[text](https://x.com/ShredApp)
+[text](https://x.com/FitbodApp)
+[text](https://x.com/Asgooch)
