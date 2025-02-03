@@ -51,13 +51,14 @@ const quantityOfPosts = sortedPosts.length;
     <!-- Inline JavaScript for the search functionality -->
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-        const searchInput = document.getElementById('blog-search');
-        const postsList = document.getElementById('posts-list');
+        const searchInput = document.getElementById('blog-search')!;
+        const postsList = document.getElementById('posts-list')!;
         const postsItems = postsList.querySelectorAll('li');
-        const postsCount = document.getElementById('posts-count');
+        const postsCount = document.getElementById('posts-count')!;
 
         searchInput.addEventListener('input', function(e) {
-          const query = e.target.value.toLowerCase();
+          const target = e.target as HTMLInputElement;
+          const query = target.value.toLowerCase();
           postsItems.forEach(item => {
             const postTitle = item.getAttribute('data-title')?.toLowerCase() || '';
             const postDesc = item.getAttribute('data-description')?.toLowerCase() || '';
